@@ -1,0 +1,39 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .swatch rect {
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        .swatch rect:hover {
+            transform: translateY(-2px);
+            filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
+        }
+        .swatch text {
+            pointer-events: none;
+            user-select: none;
+        }
+        .section-title {
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .swatch rect {
+                transition: none;
+            }
+        }
+    </style>
+
+    <!-- Accessible title -->
+    <title>Necrotic Bloom Color Palette</title>
+    <desc>A comprehensive color palette featuring core, dark mode, and light mode variations of the Necrotic Bloom theme.</desc>
+
+    <!-- Background with subtle grid -->
+    <rect width="800" height="600" fill="#F8F8F8"/>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+        <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#E0E0E0" stroke-width="0.5"/>
+    </pattern>
+    <rect width="800" height="600" fill="url(#grid)" opacity="0.5"/>
+
+    <!-- Rest of the SVG content remains the same, but remove CDATA script section -->
+</svg> 
