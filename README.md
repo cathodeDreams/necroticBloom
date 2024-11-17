@@ -152,15 +152,3 @@ body {
 This color scheme draws from the growing intersection of biotechnology and design, where sterile laboratory environments meet organic processes. It acknowledges both the beauty and slight unease of synthetic biology, creating a space where the natural and artificial coexist in aesthetic harmony.
 
 The pastel elements soften what could otherwise be harsh contrasts, while the darker tones ground the palette in its gothic roots. The result is a versatile system that can adapt to various contexts while maintaining its unique character - much like the adaptable organisms that inspired it.
-
-## Quick Start
-
-### NPM Installation
-```bash
-npm install necrotic-bloom
-```
-
-### CDN Usage
-```html
-<link rel="stylesheet" href="https://unpkg.com/necrotic-bloom@1.0.0/dist/necroticBloom.css">
-```
