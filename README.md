@@ -4,151 +4,118 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
 ![WCAG](https://img.shields.io/badge/WCAG-AA%2FAAA-success)
 
-> A Pastel Gothic Biopunk Color System for Modern Interfaces
+> A Versatile Color System for Modern Interfaces
 
-<div align="center">
-  <img src="./necroticBloom.svg" alt="Necrotic Bloom Color Palette" width="800"/>
-</div>
+This color system emerged from exploring the intersection of organic and synthetic aesthetics. It provides a flexible foundation for creating interfaces that feel both familiar and slightly alien - equally at home in professional applications or more experimental designs.
 
-This color system emerged from a design prompt seeking to merge three distinct aesthetic elements:
-1. Pastel softness
-2. Gothic darkness
-3. Biopunk organic/synthetic fusion
+## Core Palette
 
-The name "Necrotic Bloom" captures the essence of this palette - the interplay between decay and growth, synthetic and organic, soft and harsh. Like a beautiful fungus growing on decaying matter, or a neon-bright chemical reaction in a dark laboratory, these colors tell a story of life finding new forms in unexpected places.
+### Foundation Colors
 
-## Color Specifications
+| Color Name    | Hex Code | Description |
+|--------------|----------|-------------|
+| Fungal Black | `#1A1B1C` | Deep neutral black with organic undertones |
+| Bio Lavender | `#E6D7F3` | Soft purple with ethereal qualities |
+| Viral Mint   | `#C4E3D4` | Muted green with clinical undertones |
+| Tissue Pink  | `#FFE5EC` | Delicate organic pink |
+| Spore Gray   | `#9BA0A3` | Neutral gray with subtle warmth |
+| Neon Moss    | `#4B9900` | Vibrant organic accent |
 
-### Core Colors
+### Dark Mode Variants
 
-| Color Name    | Hex Code | Description | WCAG |
-|--------------|----------|-------------|------|
-| Fungal Black | `#1A1B1C` | Primary dark tone, deep cave fungus | AAA |
-| Bio Lavender | `#E6D7F3` | Soft purple with bioluminescent qualities | AA |
-| Viral Mint   | `#C4E3D4` | Clinical green with organic undertones | AA |
-| Tissue Pink  | `#FFE5EC` | Soft organic matter pink | AA |
-| Spore Gray   | `#9BA0A3` | Neutral gray with organic qualities | AA |
-| Neon Moss    | `#7FFF00` | Vibrant toxic growth accent | AA |
+| Color Name    | Hex Code | Description |
+|--------------|----------|-------------|
+| Deep Void    | `#0D0E0E` | Darker background variant |
+| Dark Lavender| `#9B87AB` | Muted purple for dark contexts |
+| Shadow Mint  | `#7A9B89` | Desaturated green for dark contexts |
+| Dark Spore   | `#4D5052` | Deep gray for dark contexts |
 
-### Dark Mode Variations
+### Light Mode Variants
 
-| Color Name    | Hex Code | Description | WCAG |
-|--------------|----------|-------------|------|
-| Deep Void    | `#0D0E0E` | Darker background state | AAA |
-| Dark Lavender| `#9B87AB` | Muted purple for dark contexts | AA |
-| Shadow Mint  | `#7A9B89` | Desaturated green for dark contexts | AA |
-| Dusk Pink    | `#B39399` | Muted pink for dark contexts | AA |
-| Dark Spore   | `#4D5052` | Deeper gray for dark contexts | AAA |
-| Dark Moss    | `#4B9900` | Darker accent for dark contexts | AA |
+| Color Name    | Hex Code | Description |
+|--------------|----------|-------------|
+| Light Void   | `#E5E7E8` | Light background variant |
+| Light Lavender| `#F5EBFD` | Higher contrast purple |
+| Light Mint   | `#E8F5EE` | Higher contrast green |
+| Light Spore  | `#E5E7E8` | Light gray variant |
 
-### Light Mode Variations
+## Usage
 
-| Color Name     | Hex Code | Description | WCAG |
-|---------------|----------|-------------|------|
-| Light Void    | `#F2F2F3` | Light background state | AA |
-| Light Lavender| `#F5EBFD` | Higher contrast purple for light contexts | AA |
-| Light Mint    | `#E8F5EE` | Higher contrast green for light contexts | AA |
-| Light Pink    | `#FFF0F4` | Higher contrast pink for light contexts | AA |
-| Light Spore   | `#E5E7E8` | Lighter gray for light contexts | AA |
-| Light Moss    | `#DFFFB3` | Lighter accent for light contexts | AA |
-
-## Design Philosophy
-
-The palette takes inspiration from several sources:
-- Laboratory specimens preserved in soft-hued solutions
-- Bioluminescent organisms in dark environments
-- Pastel goth fashion's subversion of traditional dark themes
-- Clinical cleanliness meeting organic growth
-- The duality of synthetic biology - both beautiful and unsettling
-
-## Usage Guidelines
-
-### Primary Applications
-- User Interfaces
-- Digital Art
-- Website Design
-- Game Design
-- Scientific/Medical Applications
-- Biotechnology Branding
-
-### Color Relationships
-
-1. Base System
-   - Fungal Black serves as the foundation
-   - Pastel tones (Lavender, Mint, Pink) provide organic softness
-   - Neon Moss offers crucial moments of intensity
-   - Spore Gray bridges the gap between dark and light elements
-
-2. Dark Mode
-   - Deeper saturation maintains theme while ensuring readability
-   - Reduced brightness preserves the gothic aesthetic
-   - Maintains color relationships while adapting to darker contexts
-
-3. Light Mode
-   - Higher contrast while maintaining the soft, clinical feel
-   - Preserves the biopunk aesthetic in well-lit contexts
-   - Ensures accessibility without losing character
-
-### Accessibility Considerations
-
-- Core colors maintain sufficient contrast for text readability
-- Light and dark variations ensure flexibility across different contexts
-- Accent colors (Neon Moss family) reserved for important highlights
-- Gray tones carefully calibrated for subtle hierarchy
-
-## Implementation Examples
+### Theme Construction
 
 ```css
+/* Light Theme Example */
 :root {
-  /* Core Colors */
-  --fungal-black: #1A1B1C;
-  --bio-lavender: #E6D7F3;
-  --viral-mint: #C4E3D4;
-  --tissue-pink: #FFE5EC;
-  --spore-gray: #9BA0A3;
-  --neon-moss: #7FFF00;
-  
-  /* Dark Mode Colors */
-  --deep-void: #0D0E0E;
-  --dark-lavender: #9B87AB;
-  --shadow-mint: #7A9B89;
-  --dusk-pink: #B39399;
-  --dark-spore: #4D5052;
-  --dark-moss: #4B9900;
-  
-  /* Light Mode Colors */
-  --light-void: #F2F2F3;
-  --light-lavender: #F5EBFD;
-  --light-mint: #E8F5EE;
-  --light-pink: #FFF0F4;
-  --light-spore: #E5E7E8;
-  --light-moss: #DFFFB3;
+    --bg-color: var(--light-void);
+    --text-color: var(--fungal-black);
+    --link-color: var(--dark-spore);
+    --accent-color: var(--spore-gray);
+    --border-color: var(--dark-spore);
 }
 
-/* Example Usage */
-body {
-  background-color: var(--light-void);
-  color: var(--fungal-black);
-}
-
-.dark-theme {
-  background-color: var(--deep-void);
-  color: var(--light-spore);
-}
-
-.accent-button {
-  background-color: var(--neon-moss);
-  color: var(--fungal-black);
-}
-
-.card {
-  background-color: var(--bio-lavender);
-  border: 1px solid var(--spore-gray);
+/* Dark Theme Example */
+[data-theme="dark"] {
+    --bg-color: var(--dark-void);
+    --text-color: var(--dark-lavender);
+    --link-color: var(--shadow-mint);
+    --accent-color: var(--dark-spore);
+    --border-color: var(--dark-spore);
 }
 ```
 
-## Notes on Inspiration
+### Accessibility Guidelines
 
-This color scheme draws from the growing intersection of biotechnology and design, where sterile laboratory environments meet organic processes. It acknowledges both the beauty and slight unease of synthetic biology, creating a space where the natural and artificial coexist in aesthetic harmony.
+- All color combinations meet WCAG AA standards for text
+- Dark mode colors are calibrated for reduced eye strain
+- Light mode ensures sufficient contrast while maintaining theme
+- Accent colors reserved for interactive elements and highlights
 
-The pastel elements soften what could otherwise be harsh contrasts, while the darker tones ground the palette in its gothic roots. The result is a versatile system that can adapt to various contexts while maintaining its unique character - much like the adaptable organisms that inspired it.
+### Recommended Applications
+
+- Web Applications
+- Documentation Sites
+- Developer Tools
+- Content Management Systems
+- Portfolio Sites
+- Technical Blogs
+
+## Alternative Variations
+
+The palette can be adapted for different contexts while maintaining its core characteristics:
+
+### Clinical Variant
+- Emphasize the mint and lavender tones
+- Increase use of white space
+- Reduce border opacity
+
+### Technical Variant
+- Lean into the darker tones
+- Use more pronounced borders
+- Emphasize monospace typography
+
+### Organic Variant
+- Emphasize pink and moss tones
+- Use softer borders
+- Incorporate more gradient transitions
+
+## Implementation Notes
+
+- Use opacity variations for hierarchy
+- Consider reduced motion preferences
+- Maintain consistent contrast ratios
+- Test in various lighting conditions
+- Ensure color is not the sole indicator of state
+
+## Browser Support
+
+- Modern browsers (Chrome, Firefox, Safari, Edge)
+- Graceful fallback for older browsers
+- CSS Custom Properties (variables) required
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+This color system is MIT licensed. Feel free to use it in personal or commercial projects.
