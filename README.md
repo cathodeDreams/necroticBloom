@@ -164,30 +164,3 @@ npm install necrotic-bloom
 ```html
 <link rel="stylesheet" href="https://unpkg.com/necrotic-bloom@1.0.0/dist/necroticBloom.css">
 ```
-
-### Direct Download
-Download the [latest release](https://github.com/yourusername/necrotic-bloom/releases) and include in your project.
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Inspired by biopunk aesthetics and laboratory specimens
-- WCAG accessibility guidelines
-- The growing intersection of biotechnology and design
-
-## Support
-
-- 📫 [Report a bug](https://github.com/yourusername/necrotic-bloom/issues)
-- 💡 [Request a feature](https://github.com/yourusername/necrotic-bloom/issues)
-- 📖 [Documentation](https://github.com/yourusername/necrotic-bloom/wiki)
