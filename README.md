@@ -1,121 +1,80 @@
-# Necrotic Bloom
+# Necrotic Bloom Color System
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
-![WCAG](https://img.shields.io/badge/WCAG-AA%2FAAA-success)
+![Necrotic Bloom Color System](necroticBloom-enhanced.svg)
 
-> A Versatile Color System for Modern Interfaces
+The official color system of Latent Echo, designed to provide semantic meaning through carefully calibrated color relationships while maintaining WCAG compliance across light and dark modes.
 
-This color system emerged from exploring the intersection of organic and synthetic aesthetics. It provides a flexible foundation for creating interfaces that feel both familiar and slightly alien - equally at home in professional applications or more experimental designs.
-
-## Core Palette
+## Color Architecture
 
 ### Foundation Colors
 
-| Color Name    | Hex Code | Description |
-|--------------|----------|-------------|
-| Fungal Black | `#1A1B1C` | Deep neutral black with organic undertones |
-| Bio Lavender | `#E6D7F3` | Soft purple with ethereal qualities |
-| Viral Mint   | `#C4E3D4` | Muted green with clinical undertones |
-| Tissue Pink  | `#FFE5EC` | Delicate organic pink |
-| Spore Gray   | `#9BA0A3` | Neutral gray with subtle warmth |
-| Neon Moss    | `#4B9900` | Vibrant organic accent |
+| Color Name    | Hex Code | WCAG | Usage Context |
+|--------------|----------|------|---------------|
+| Fungal Black | `#1A1B1C` | AAA | Primary text, critical UI elements |
+| Bio Lavender | `#E6D7F3` | AA  | Secondary elements, subtle highlights |
+| Viral Mint   | `#C4E3D4` | AA  | Success states, positive indicators |
+| Tissue Pink  | `#FFE5EC` | AA  | Warning states, attention indicators |
+| Spore Gray   | `#9BA0A3` | AA  | Tertiary elements, disabled states |
+| Neon Moss    | `#7FFF00` | AA  | Primary accent, interactive elements |
 
-### Dark Mode Variants
+### Dark Mode Spectrum
 
-| Color Name    | Hex Code | Description |
-|--------------|----------|-------------|
-| Deep Void    | `#0D0E0E` | Darker background variant |
-| Dark Lavender| `#9B87AB` | Muted purple for dark contexts |
-| Shadow Mint  | `#7A9B89` | Desaturated green for dark contexts |
-| Dark Spore   | `#4D5052` | Deep gray for dark contexts |
+| Color Name     | Hex Code | WCAG | Context Shift |
+|---------------|----------|------|---------------|
+| Deep Void     | `#0D0E0E` | AAA | Background surface |
+| Dark Lavender | `#9B87AB` | AA  | Primary text, active states |
+| Shadow Mint   | `#7A9B89` | AA  | Success indicators |
+| Dark Spore    | `#4D5052` | AAA | Borders, separators |
+| Dark Moss     | `#4B9900` | AA  | Interactive accents |
 
-### Light Mode Variants
+### Light Mode Spectrum
 
-| Color Name    | Hex Code | Description |
-|--------------|----------|-------------|
-| Light Void   | `#E5E7E8` | Light background variant |
-| Light Lavender| `#F5EBFD` | Higher contrast purple |
-| Light Mint   | `#E8F5EE` | Higher contrast green |
-| Light Spore  | `#E5E7E8` | Light gray variant |
+| Color Name      | Hex Code | WCAG | Context Shift |
+|----------------|----------|------|---------------|
+| Light Void     | `#F2F2F3` | AA  | Background surface |
+| Light Lavender | `#F5EBFD` | AA  | Secondary backgrounds |
+| Light Mint     | `#E8F5EE` | AA  | Success backgrounds |
+| Light Spore    | `#E5E7E8` | AA  | Tertiary backgrounds |
+| Light Moss     | `#DFFFB3` | AA  | Accent backgrounds |
 
-## Usage
+## Implementation
 
-### Theme Construction
+### CSS Custom Properties
 
 ```css
-/* Light Theme Example */
 :root {
-    --bg-color: var(--light-void);
-    --text-color: var(--fungal-black);
-    --link-color: var(--dark-spore);
-    --accent-color: var(--spore-gray);
-    --border-color: var(--dark-spore);
+    --fungal-black: #1A1B1C;
+    --bio-lavender: #E6D7F3;
+    --viral-mint: #C4E3D4;
+    --tissue-pink: #FFE5EC;
+    --spore-gray: #9BA0A3;
+    --neon-moss: #7FFF00;
 }
 
-/* Dark Theme Example */
 [data-theme="dark"] {
-    --bg-color: var(--dark-void);
+    --bg-color: var(--deep-void);
     --text-color: var(--dark-lavender);
-    --link-color: var(--shadow-mint);
-    --accent-color: var(--dark-spore);
-    --border-color: var(--dark-spore);
+    --accent: var(--shadow-mint);
 }
 ```
 
-### Accessibility Guidelines
+### Semantic Usage
 
-- All color combinations meet WCAG AA standards for text
-- Dark mode colors are calibrated for reduced eye strain
-- Light mode ensures sufficient contrast while maintaining theme
-- Accent colors reserved for interactive elements and highlights
+- Text Hierarchy: Use Fungal Black for primary content, Spore Gray for secondary
+- Interactive States: Neon Moss for hover, Dark Moss for active
+- System States: Viral Mint for success, Tissue Pink for warnings
+- Background Layers: Light/Deep Void as base, Light variants for elevation
 
-### Recommended Applications
+### Accessibility Notes
 
-- Web Applications
-- Documentation Sites
-- Developer Tools
-- Content Management Systems
-- Portfolio Sites
-- Technical Blogs
+- All color combinations meet WCAG AA standards minimum
+- Critical UI elements maintain AAA compliance
+- Dark mode optimized for reduced eye strain
+- Light mode ensures sufficient contrast ratios
 
-## Alternative Variations
+## Attribution
 
-The palette can be adapted for different contexts while maintaining its core characteristics:
+Created by Azul ([cathodeDreams 𝕏](https://x.com/cathodeDreams)) for latentecho.net, 2024.
+Last updated: 2024-11-18
 
-### Clinical Variant
-- Emphasize the mint and lavender tones
-- Increase use of white space
-- Reduce border opacity
-
-### Technical Variant
-- Lean into the darker tones
-- Use more pronounced borders
-- Emphasize monospace typography
-
-### Organic Variant
-- Emphasize pink and moss tones
-- Use softer borders
-- Incorporate more gradient transitions
-
-## Implementation Notes
-
-- Use opacity variations for hierarchy
-- Consider reduced motion preferences
-- Maintain consistent contrast ratios
-- Test in various lighting conditions
-- Ensure color is not the sole indicator of state
-
-## Browser Support
-
-- Modern browsers (Chrome, Firefox, Safari, Edge)
-- Graceful fallback for older browsers
-- CSS Custom Properties (variables) required
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This color system is MIT licensed. Feel free to use it in personal or commercial projects.
+![Latent Echo Branding](../latent-echo/img/branding.svg)

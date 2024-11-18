@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="2048"
+   height="2560"
+   viewBox="0 0 2048 2560"
+   version="1.1"
+   id="svg41"
+   sodipodi:docname="necroticBloom-enhanced.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   inkscape:export-filename="necroticBloom-enhanced.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview41"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.45585937"
+     inkscape:cx="851.13968"
+     inkscape:cy="1389.683"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g41" />
+  <defs
+     id="defs1">
+    <filter
+       id="hover-shadow"
+       x="-20%"
+       y="-20%"
+       width="140%"
+       height="140%">
+      <feDropShadow
+         dx="0"
+         dy="2"
+         stdDeviation="2"
+         flood-opacity="0.3" />
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect
+     width="100%"
+     height="100%"
+     fill="#0D0E0E"
+     id="rect1" />
+  <!-- Grid Pattern -->
+  <g
+     id="grid"
+     opacity="0.1">
+    <path
+       d="M 0 0 h 2048"
+       stroke="#4D5052"
+       stroke-width="1"
+       id="path1" />
+    <path
+       d="M 0 2560 L 2048 2560"
+       stroke="#4D5052"
+       stroke-width="1"
+       id="path2" />
+    <path
+       d="M 124 0 v 2560"
+       stroke="#4D5052"
+       stroke-width="1"
+       id="path3" />
+    <path
+       d="M 1924 0 v 2560"
+       stroke="#4D5052"
+       stroke-width="1"
+       id="path4" />
+  </g>
+  <!-- Header Section -->
+  <g
+     transform="translate(124, 124)"
+     id="g11">
+    <!-- Logo Mark -->
+    <g
+       id="g7">
+      <rect
+         x="0"
+         y="0"
+         width="16"
+         height="16"
+         fill="#4B9900"
+         id="rect4" />
+      <rect
+         x="14"
+         y="14"
+         width="58"
+         height="58"
+         fill="#4B9900"
+         opacity="0.5"
+         id="rect5" />
+      <rect
+         x="24"
+         y="24"
+         width="92"
+         height="92"
+         fill="#7A9B89"
+         opacity="0.3"
+         id="rect6" />
+      <rect
+         x="40"
+         y="40"
+         width="148"
+         height="148"
+         fill="#C4E3D4"
+         opacity="0.15"
+         id="rect7" />
+    </g>
+    <!-- Title -->
+    <g
+       transform="translate(200, 64)"
+       id="g8">
+      <text
+         font-family="'IBM Plex Mono', monospace"
+         font-size="64px"
+         font-weight="300"
+         fill="#9b87ab"
+         letter-spacing="0.15em"
+         id="text7"
+         x="442.5625"
+         y="-0.59375">NECROTIC BLOOM</text>
+    </g>
+    <!-- Subtitle -->
+    <g
+       transform="translate(1315.625,45.609375)"
+       id="g9">
+      <text
+         font-family="'IBM Plex Mono', monospace"
+         font-size="32.3979px"
+         fill="#7a9b89"
+         id="text8"
+         x="31.613554"
+         y="2256.0022"
+         transform="scale(1.0124334,0.98771931)"
+         style="stroke-width:1.01243">Made for latentecho.net</text>
+    </g>
+    <!-- Version -->
+    <g
+       transform="translate(200, 164)"
+       id="g10">
+      <text
+         font-family="'IBM Plex Mono', monospace"
+         font-size="24px"
+         fill="#4d5052"
+         id="text9"
+         x="698.51172"
+         y="-32.941406">Color System v1.0.0</text>
+    </g>
+  </g>
+  <!-- Core Colors -->
+  <g
+     transform="translate(124, 500)"
+     id="g22">
+    <!-- Foundation Colors -->
+    <text
+       font-family="'IBM Plex Mono', monospace"
+       font-size="48"
+       fill="#9B87AB"
+       y="-40"
+       id="text11">Foundation Colors</text>
+    <g
+       id="foundation-swatches">
+      <!-- Fungal Black -->
+      <g
+         transform="translate(0, 0)"
+         id="g13">
+        <rect
+           width="300"
+           height="180"
+           fill="#1A1B1C"
+           id="rect11" />
+        <text
+           x="16"
+           y="220"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="24"
+           fill="#9B87AB"
+           id="text12">Fungal Black</text>
+        <text
+           x="16"
+           y="250"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="20"
+           fill="#7A9B89"
+           id="text13">#1A1B1C</text>
+      </g>
+      <!-- Bio Lavender -->
+      <g
+         transform="translate(350, 0)"
+         id="g15">
+        <rect
+           width="300"
+           height="180"
+           fill="#E6D7F3"
+           id="rect13" />
+        <text
+           x="16"
+           y="220"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="24"
+           fill="#9B87AB"
+           id="text14">Bio Lavender</text>
+        <text
+           x="16"
+           y="250"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="20"
+           fill="#7A9B89"
+           id="text15">#E6D7F3</text>
+      </g>
+      <!-- Viral Mint -->
+      <g
+         transform="translate(700, 0)"
+         id="g17">
+        <rect
+           width="300"
+           height="180"
+           fill="#C4E3D4"
+           id="rect15" />
+        <text
+           x="16"
+           y="220"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="24"
+           fill="#9B87AB"
+           id="text16">Viral Mint</text>
+        <text
+           x="16"
+           y="250"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="20"
+           fill="#7A9B89"
+           id="text17">#C4E3D4</text>
+      </g>
+      <!-- Tissue Pink -->
+      <g
+         transform="translate(1050, 0)"
+         id="g19">
+        <rect
+           width="300"
+           height="180"
+           fill="#FFE5EC"
+           id="rect17" />
+        <text
+           x="16"
+           y="220"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="24"
+           fill="#9B87AB"
+           id="text18">Tissue Pink</text>
+        <text
+           x="16"
+           y="250"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="20"
+           fill="#7A9B89"
+           id="text19">#FFE5EC</text>
+      </g>
+      <!-- Spore Gray -->
+      <g
+         transform="translate(1400, 0)"
+         id="g21">
+        <rect
+           width="300"
+           height="180"
+           fill="#9BA0A3"
+           id="rect19" />
+        <text
+           x="16"
+           y="220"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="24"
+           fill="#9B87AB"
+           id="text20">Spore Gray</text>
+        <text
+           x="16"
+           y="250"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="20"
+           fill="#7A9B89"
+           id="text21">#9BA0A3</text>
+      </g>
+    </g>
+  </g>
+  <!-- Dark Mode Colors -->
+  <g
+     transform="translate(124, 1000)"
+     id="g31">
+    <text
+       font-family="'IBM Plex Mono', monospace"
+       font-size="48"
+       fill="#9B87AB"
+       y="-40"
+       id="text22">Dark Mode</text>
+    <g
+       id="dark-swatches">
+      <!-- Deep Void -->
+      <g
+         transform="translate(0, 0)"
+         id="g24">
+        <rect
+           width="300"
+           height="180"
+           fill="#0D0E0E"
+           id="rect22" />
+        <text
+           x="16"
+           y="220"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="24"
+           fill="#9B87AB"
+           id="text23">Deep Void</text>
+        <text
+           x="16"
+           y="250"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="20"
+           fill="#7A9B89"
+           id="text24">#0D0E0E</text>
+      </g>
+      <!-- Dark Lavender -->
+      <g
+         transform="translate(350, 0)"
+         id="g26">
+        <rect
+           width="300"
+           height="180"
+           fill="#9B87AB"
+           id="rect24" />
+        <text
+           x="16"
+           y="220"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="24"
+           fill="#9B87AB"
+           id="text25">Dark Lavender</text>
+        <text
+           x="16"
+           y="250"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="20"
+           fill="#7A9B89"
+           id="text26">#9B87AB</text>
+      </g>
+      <!-- Shadow Mint -->
+      <g
+         transform="translate(700, 0)"
+         id="g28">
+        <rect
+           width="300"
+           height="180"
+           fill="#7A9B89"
+           id="rect26" />
+        <text
+           x="16"
+           y="220"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="24"
+           fill="#9B87AB"
+           id="text27">Shadow Mint</text>
+        <text
+           x="16"
+           y="250"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="20"
+           fill="#7A9B89"
+           id="text28">#7A9B89</text>
+      </g>
+      <!-- Dark Spore -->
+      <g
+         transform="translate(1050, 0)"
+         id="g30">
+        <rect
+           width="300"
+           height="180"
+           fill="#4D5052"
+           id="rect28" />
+        <text
+           x="16"
+           y="220"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="24"
+           fill="#9B87AB"
+           id="text29">Dark Spore</text>
+        <text
+           x="16"
+           y="250"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="20"
+           fill="#7A9B89"
+           id="text30">#4D5052</text>
+      </g>
+    </g>
+  </g>
+  <!-- Light Mode Colors -->
+  <g
+     transform="translate(124, 1500)"
+     id="g40">
+    <text
+       font-family="'IBM Plex Mono', monospace"
+       font-size="48"
+       fill="#9B87AB"
+       y="-40"
+       id="text31">Light Mode</text>
+    <g
+       id="light-swatches">
+      <!-- Light Void -->
+      <g
+         transform="translate(0, 0)"
+         id="g33">
+        <rect
+           width="300"
+           height="180"
+           fill="#F2F2F3"
+           id="rect31" />
+        <text
+           x="16"
+           y="220"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="24"
+           fill="#9B87AB"
+           id="text32">Light Void</text>
+        <text
+           x="16"
+           y="250"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="20"
+           fill="#7A9B89"
+           id="text33">#F2F2F3</text>
+      </g>
+      <!-- Light Lavender -->
+      <g
+         transform="translate(350, 0)"
+         id="g35">
+        <rect
+           width="300"
+           height="180"
+           fill="#F5EBFD"
+           id="rect33" />
+        <text
+           x="16"
+           y="220"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="24"
+           fill="#9B87AB"
+           id="text34">Light Lavender</text>
+        <text
+           x="16"
+           y="250"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="20"
+           fill="#7A9B89"
+           id="text35">#F5EBFD</text>
+      </g>
+      <!-- Light Mint -->
+      <g
+         transform="translate(700, 0)"
+         id="g37">
+        <rect
+           width="300"
+           height="180"
+           fill="#E8F5EE"
+           id="rect35" />
+        <text
+           x="16"
+           y="220"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="24"
+           fill="#9B87AB"
+           id="text36">Light Mint</text>
+        <text
+           x="16"
+           y="250"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="20"
+           fill="#7A9B89"
+           id="text37">#E8F5EE</text>
+      </g>
+      <!-- Light Spore -->
+      <g
+         transform="translate(1050, 0)"
+         id="g39">
+        <rect
+           width="300"
+           height="180"
+           fill="#E5E7E8"
+           id="rect37" />
+        <text
+           x="16"
+           y="220"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="24"
+           fill="#9B87AB"
+           id="text38">Light Spore</text>
+        <text
+           x="16"
+           y="250"
+           font-family="'IBM Plex Mono', monospace"
+           font-size="20"
+           fill="#7A9B89"
+           id="text39">#E5E7E8</text>
+      </g>
+    </g>
+  </g>
+  <!-- Attribution -->
+  <g
+     transform="translate(124, 2400)"
+     id="g41">
+    <text
+       font-family="'IBM Plex Mono', monospace"
+       font-size="32px"
+       fill="#4d5052"
+       id="text40">Created by Azul / cathodeDreams 𝕏</text>
+    <text
+       y="50"
+       font-family="'IBM Plex Mono', monospace"
+       font-size="32"
+       fill="#4D5052"
+       id="text41">
+            For Latent Echo, 2024
+        </text>
+  </g>
+</svg>
