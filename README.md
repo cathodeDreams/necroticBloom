@@ -77,4 +77,4 @@ The official color system of Latent Echo, designed to provide semantic meaning t
 Created by Azul ([cathodeDreams 𝕏](https://x.com/cathodeDreams)) for latentecho.net, 2024.
 Last updated: 2024-11-18
 
-![Latent Echo Branding](../latent-echo/img/branding.svg)
+![Latent Echo Branding](branding.png)
