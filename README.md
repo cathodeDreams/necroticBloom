@@ -1,4 +1,4 @@
-# Necrotic Bloom Color System
+<h1 align="center">Necrotic Bloom</h1>
 
 ![Necrotic Bloom Color System](necroticBloom-enhanced.svg)
 
@@ -123,7 +123,7 @@ A biopunk color system designed for Latent Echo
 
 ## Attribution
 
-Created by Azul ([cathodeDreams 𝕏](https://x.com/cathodeDreams)) for latentecho.net, 2024.
+Created by Azul ([𝕏 @cathode_dreams](https://x.com/cathode_dreams)) for latentecho.net, 2024.
 
 ## Version History
 
