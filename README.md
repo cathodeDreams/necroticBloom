@@ -121,8 +121,6 @@ A biopunk color system designed for Latent Echo
 }
 ```
 
-## Attribution
-
 Created by Azul ([𝕏 @cathode_dreams](https://x.com/cathode_dreams)) for latentecho.net, 2024.
 
 ## Version History
