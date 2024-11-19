@@ -1,534 +1,214 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="2048"
-   height="2560"
-   viewBox="0 0 2048 2560"
-   version="1.1"
-   id="svg41"
-   sodipodi:docname="necroticBloom-enhanced.svg"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
-   inkscape:export-filename="necroticBloom-enhanced.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview41"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.45585937"
-     inkscape:cx="851.13968"
-     inkscape:cy="1389.683"
-     inkscape:window-width="2560"
-     inkscape:window-height="1369"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="g41" />
-  <defs
-     id="defs1">
-    <filter
-       id="hover-shadow"
-       x="-20%"
-       y="-20%"
-       width="140%"
-       height="140%">
-      <feDropShadow
-         dx="0"
-         dy="2"
-         stdDeviation="2"
-         flood-opacity="0.3" />
-    </filter>
-  </defs>
-  <!-- Background -->
-  <rect
-     width="100%"
-     height="100%"
-     fill="#0D0E0E"
-     id="rect1" />
-  <!-- Grid Pattern -->
-  <g
-     id="grid"
-     opacity="0.1">
-    <path
-       d="M 0 0 h 2048"
-       stroke="#4D5052"
-       stroke-width="1"
-       id="path1" />
-    <path
-       d="M 0 2560 L 2048 2560"
-       stroke="#4D5052"
-       stroke-width="1"
-       id="path2" />
-    <path
-       d="M 124 0 v 2560"
-       stroke="#4D5052"
-       stroke-width="1"
-       id="path3" />
-    <path
-       d="M 1924 0 v 2560"
-       stroke="#4D5052"
-       stroke-width="1"
-       id="path4" />
-  </g>
-  <!-- Header Section -->
-  <g
-     transform="translate(124, 124)"
-     id="g11">
-    <!-- Logo Mark -->
-    <g
-       id="g7">
-      <rect
-         x="0"
-         y="0"
-         width="16"
-         height="16"
-         fill="#4B9900"
-         id="rect4" />
-      <rect
-         x="14"
-         y="14"
-         width="58"
-         height="58"
-         fill="#4B9900"
-         opacity="0.5"
-         id="rect5" />
-      <rect
-         x="24"
-         y="24"
-         width="92"
-         height="92"
-         fill="#7A9B89"
-         opacity="0.3"
-         id="rect6" />
-      <rect
-         x="40"
-         y="40"
-         width="148"
-         height="148"
-         fill="#C4E3D4"
-         opacity="0.15"
-         id="rect7" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000" height="800" viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1000" height="800" fill="#1A1B1C"/>
+    
+    <!-- Title Container -->
+    <g transform="translate(500, 50)">
+        <text font-family="Arial" font-size="24" fill="#F2F2F3" font-weight="bold" text-anchor="middle">Necrotic Bloom Color System</text>
+        <text y="30" font-family="Arial" font-size="14" fill="#F2F2F3" text-anchor="middle">Foundation Colors</text>
     </g>
-    <!-- Title -->
-    <g
-       transform="translate(200, 64)"
-       id="g8">
-      <text
-         font-family="'IBM Plex Mono', monospace"
-         font-size="64px"
-         font-weight="300"
-         fill="#9b87ab"
-         letter-spacing="0.15em"
-         id="text7"
-         x="442.5625"
-         y="-0.59375">NECROTIC BLOOM</text>
-    </g>
-    <!-- Subtitle -->
-    <g
-       transform="translate(1315.625,45.609375)"
-       id="g9">
-      <text
-         font-family="'IBM Plex Mono', monospace"
-         font-size="32.3979px"
-         fill="#7a9b89"
-         id="text8"
-         x="31.613554"
-         y="2256.0022"
-         transform="scale(1.0124334,0.98771931)"
-         style="stroke-width:1.01243">Made for latentecho.net</text>
-    </g>
-    <!-- Version -->
-    <g
-       transform="translate(200, 164)"
-       id="g10">
-      <text
-         font-family="'IBM Plex Mono', monospace"
-         font-size="24px"
-         fill="#4d5052"
-         id="text9"
-         x="698.51172"
-         y="-32.941406">Color System v1.0.0</text>
-    </g>
-  </g>
-  <!-- Core Colors -->
-  <g
-     transform="translate(124, 500)"
-     id="g22">
+
     <!-- Foundation Colors -->
-    <text
-       font-family="'IBM Plex Mono', monospace"
-       font-size="48"
-       fill="#9B87AB"
-       y="-40"
-       id="text11">Foundation Colors</text>
-    <g
-       id="foundation-swatches">
-      <!-- Fungal Black -->
-      <g
-         transform="translate(0, 0)"
-         id="g13">
-        <rect
-           width="300"
-           height="180"
-           fill="#1A1B1C"
-           id="rect11" />
-        <text
-           x="16"
-           y="220"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="24"
-           fill="#9B87AB"
-           id="text12">Fungal Black</text>
-        <text
-           x="16"
-           y="250"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="20"
-           fill="#7A9B89"
-           id="text13">#1A1B1C</text>
-      </g>
-      <!-- Bio Lavender -->
-      <g
-         transform="translate(350, 0)"
-         id="g15">
-        <rect
-           width="300"
-           height="180"
-           fill="#E6D7F3"
-           id="rect13" />
-        <text
-           x="16"
-           y="220"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="24"
-           fill="#9B87AB"
-           id="text14">Bio Lavender</text>
-        <text
-           x="16"
-           y="250"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="20"
-           fill="#7A9B89"
-           id="text15">#E6D7F3</text>
-      </g>
-      <!-- Viral Mint -->
-      <g
-         transform="translate(700, 0)"
-         id="g17">
-        <rect
-           width="300"
-           height="180"
-           fill="#C4E3D4"
-           id="rect15" />
-        <text
-           x="16"
-           y="220"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="24"
-           fill="#9B87AB"
-           id="text16">Viral Mint</text>
-        <text
-           x="16"
-           y="250"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="20"
-           fill="#7A9B89"
-           id="text17">#C4E3D4</text>
-      </g>
-      <!-- Tissue Pink -->
-      <g
-         transform="translate(1050, 0)"
-         id="g19">
-        <rect
-           width="300"
-           height="180"
-           fill="#FFE5EC"
-           id="rect17" />
-        <text
-           x="16"
-           y="220"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="24"
-           fill="#9B87AB"
-           id="text18">Tissue Pink</text>
-        <text
-           x="16"
-           y="250"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="20"
-           fill="#7A9B89"
-           id="text19">#FFE5EC</text>
-      </g>
-      <!-- Spore Gray -->
-      <g
-         transform="translate(1400, 0)"
-         id="g21">
-        <rect
-           width="300"
-           height="180"
-           fill="#9BA0A3"
-           id="rect19" />
-        <text
-           x="16"
-           y="220"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="24"
-           fill="#9B87AB"
-           id="text20">Spore Gray</text>
-        <text
-           x="16"
-           y="250"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="20"
-           fill="#7A9B89"
-           id="text21">#9BA0A3</text>
-      </g>
+    <g transform="translate(150, 120)">
+        <!-- Color Swatches -->
+        <g id="foundation-swatches">
+            <rect x="0" y="0" width="100" height="100" fill="#1A1B1C" stroke="#333"/>
+            <rect x="120" y="0" width="100" height="100" fill="#E6D7F3"/>
+            <rect x="240" y="0" width="100" height="100" fill="#C4E3D4"/>
+            <rect x="360" y="0" width="100" height="100" fill="#FFE5EC"/>
+            <rect x="480" y="0" width="100" height="100" fill="#9BA0A3"/>
+            <rect x="600" y="0" width="100" height="100" fill="#7FFF00"/>
+            
+            <!-- Labels Container -->
+            <g fill="#F2F2F3">
+                <!-- Each label in its own container -->
+                <g transform="translate(50, 120)">
+                    <text text-anchor="middle" font-family="Arial" font-size="12">Fungal Black</text>
+                    <text y="15" text-anchor="middle" font-family="Arial" font-size="10">#1A1B1C</text>
+                </g>
+                
+                <g transform="translate(170, 120)">
+                    <text text-anchor="middle" font-family="Arial" font-size="12">Bio Lavender</text>
+                    <text y="15" text-anchor="middle" font-family="Arial" font-size="10">#E6D7F3</text>
+                </g>
+                
+                <g transform="translate(290, 120)">
+                    <text text-anchor="middle" font-family="Arial" font-size="12">Viral Mint</text>
+                    <text y="15" text-anchor="middle" font-family="Arial" font-size="10">#C4E3D4</text>
+                </g>
+                
+                <g transform="translate(410, 120)">
+                    <text text-anchor="middle" font-family="Arial" font-size="12">Tissue Pink</text>
+                    <text y="15" text-anchor="middle" font-family="Arial" font-size="10">#FFE5EC</text>
+                </g>
+                
+                <g transform="translate(530, 120)">
+                    <text text-anchor="middle" font-family="Arial" font-size="12">Spore Gray</text>
+                    <text y="15" text-anchor="middle" font-family="Arial" font-size="10">#9BA0A3</text>
+                </g>
+                
+                <g transform="translate(650, 120)">
+                    <text text-anchor="middle" font-family="Arial" font-size="12">Neon Moss</text>
+                    <text y="15" text-anchor="middle" font-family="Arial" font-size="10">#7FFF00</text>
+                </g>
+            </g>
+        </g>
     </g>
-  </g>
-  <!-- Dark Mode Colors -->
-  <g
-     transform="translate(124, 1000)"
-     id="g31">
-    <text
-       font-family="'IBM Plex Mono', monospace"
-       font-size="48"
-       fill="#9B87AB"
-       y="-40"
-       id="text22">Dark Mode</text>
-    <g
-       id="dark-swatches">
-      <!-- Deep Void -->
-      <g
-         transform="translate(0, 0)"
-         id="g24">
-        <rect
-           width="300"
-           height="180"
-           fill="#0D0E0E"
-           id="rect22" />
-        <text
-           x="16"
-           y="220"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="24"
-           fill="#9B87AB"
-           id="text23">Deep Void</text>
-        <text
-           x="16"
-           y="250"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="20"
-           fill="#7A9B89"
-           id="text24">#0D0E0E</text>
-      </g>
-      <!-- Dark Lavender -->
-      <g
-         transform="translate(350, 0)"
-         id="g26">
-        <rect
-           width="300"
-           height="180"
-           fill="#9B87AB"
-           id="rect24" />
-        <text
-           x="16"
-           y="220"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="24"
-           fill="#9B87AB"
-           id="text25">Dark Lavender</text>
-        <text
-           x="16"
-           y="250"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="20"
-           fill="#7A9B89"
-           id="text26">#9B87AB</text>
-      </g>
-      <!-- Shadow Mint -->
-      <g
-         transform="translate(700, 0)"
-         id="g28">
-        <rect
-           width="300"
-           height="180"
-           fill="#7A9B89"
-           id="rect26" />
-        <text
-           x="16"
-           y="220"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="24"
-           fill="#9B87AB"
-           id="text27">Shadow Mint</text>
-        <text
-           x="16"
-           y="250"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="20"
-           fill="#7A9B89"
-           id="text28">#7A9B89</text>
-      </g>
-      <!-- Dark Spore -->
-      <g
-         transform="translate(1050, 0)"
-         id="g30">
-        <rect
-           width="300"
-           height="180"
-           fill="#4D5052"
-           id="rect28" />
-        <text
-           x="16"
-           y="220"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="24"
-           fill="#9B87AB"
-           id="text29">Dark Spore</text>
-        <text
-           x="16"
-           y="250"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="20"
-           fill="#7A9B89"
-           id="text30">#4D5052</text>
-      </g>
+
+    <!-- Shade Sections Container -->
+    <g transform="translate(150, 320)">
+        <!-- Section Headers Container -->
+        <g fill="#F2F2F3" font-family="Arial">
+            <!-- Dark Mode Header -->
+            <g>
+                <text font-size="14">Dark Mode Shades</text>
+                <!-- Shade Numbers -->
+                <g transform="translate(0, 20)" font-size="10">
+                    <text x="30" text-anchor="middle">100</text>
+                    <text x="100" text-anchor="middle">200</text>
+                    <text x="170" text-anchor="middle">300</text>
+                    <text x="240" text-anchor="middle">400</text>
+                    <text x="310" text-anchor="middle">500</text>
+                </g>
+            </g>
+            
+            <!-- Light Mode Header -->
+            <g transform="translate(420, 0)">
+                <text font-size="14">Light Mode Shades</text>
+                <!-- Shade Numbers -->
+                <g transform="translate(0, 20)" font-size="10">
+                    <text x="30" text-anchor="middle">500</text>
+                    <text x="100" text-anchor="middle">400</text>
+                    <text x="170" text-anchor="middle">300</text>
+                    <text x="240" text-anchor="middle">200</text>
+                    <text x="310" text-anchor="middle">100</text>
+                </g>
+            </g>
+        </g>
+
+        <!-- Color Grid Container -->
+        <g transform="translate(0, 40)">
+            <!-- Dark Mode Shades -->
+            <g>
+                <!-- Labels Container for Dark Mode -->
+                <g fill="#F2F2F3" font-family="Arial" font-size="12">
+                    <text x="-10" y="35" text-anchor="end">Void</text>
+                    <text x="-10" y="105" text-anchor="end">Lavender</text>
+                    <text x="-10" y="175" text-anchor="end">Mint</text>
+                    <text x="-10" y="245" text-anchor="end">Spore</text>
+                    <text x="-10" y="315" text-anchor="end">Moss</text>
+                </g>
+
+                <!-- Void -->
+                <g>
+                    <rect x="0" y="0" width="60" height="60" fill="#000000"/>
+                    <rect x="70" y="0" width="60" height="60" fill="#050606"/>
+                    <rect x="140" y="0" width="60" height="60" fill="#0A0B0B"/>
+                    <rect x="210" y="0" width="60" height="60" fill="#0D0E0E"/>
+                    <rect x="280" y="0" width="60" height="60" fill="#1A1B1C"/>
+                </g>
+                
+                <!-- Lavender -->
+                <g transform="translate(0, 70)">
+                    <rect x="0" y="0" width="60" height="60" fill="#2D2833"/>
+                    <rect x="70" y="0" width="60" height="60" fill="#574E63"/>
+                    <rect x="140" y="0" width="60" height="60" fill="#796E8B"/>
+                    <rect x="210" y="0" width="60" height="60" fill="#9B87AB"/>
+                    <rect x="280" y="0" width="60" height="60" fill="#BBA5CB"/>
+                </g>
+                
+                <!-- Mint -->
+                <g transform="translate(0, 140)">
+                    <rect x="0" y="0" width="60" height="60" fill="#233029"/>
+                    <rect x="70" y="0" width="60" height="60" fill="#445C50"/>
+                    <rect x="140" y="0" width="60" height="60" fill="#607F6E"/>
+                    <rect x="210" y="0" width="60" height="60" fill="#7A9B89"/>
+                    <rect x="280" y="0" width="60" height="60" fill="#96B7A5"/>
+                </g>
+                
+                <!-- Spore -->
+                <g transform="translate(0, 210)">
+                    <rect x="0" y="0" width="60" height="60" fill="#1A1B1C"/>
+                    <rect x="70" y="0" width="60" height="60" fill="#333537"/>
+                    <rect x="140" y="0" width="60" height="60" fill="#404244"/>
+                    <rect x="210" y="0" width="60" height="60" fill="#4D5052"/>
+                    <rect x="280" y="0" width="60" height="60" fill="#666A6D"/>
+                </g>
+                
+                <!-- Moss -->
+                <g transform="translate(0, 280)">
+                    <rect x="0" y="0" width="60" height="60" fill="#162000"/>
+                    <rect x="70" y="0" width="60" height="60" fill="#2B4700"/>
+                    <rect x="140" y="0" width="60" height="60" fill="#3B6300"/>
+                    <rect x="210" y="0" width="60" height="60" fill="#4B9900"/>
+                    <rect x="280" y="0" width="60" height="60" fill="#5BB300"/>
+                </g>
+            </g>
+
+            <!-- Light Mode Shades -->
+            <g transform="translate(420, 0)">
+                <!-- Labels Container for Light Mode -->
+                <g fill="#F2F2F3" font-family="Arial" font-size="12">
+                    <text x="-10" y="35" text-anchor="end">Void</text>
+                    <text x="-10" y="105" text-anchor="end">Lavender</text>
+                    <text x="-10" y="175" text-anchor="end">Mint</text>
+                    <text x="-10" y="245" text-anchor="end">Spore</text>
+                    <text x="-10" y="315" text-anchor="end">Moss</text>
+                </g>
+
+                <!-- Void -->
+                <g>
+                    <rect x="0" y="0" width="60" height="60" fill="#999999"/>
+                    <rect x="70" y="0" width="60" height="60" fill="#CCCCCC"/>
+                    <rect x="140" y="0" width="60" height="60" fill="#F2F2F3"/>
+                    <rect x="210" y="0" width="60" height="60" fill="#F7F7F8"/>
+                    <rect x="280" y="0" width="60" height="60" fill="#FFFFFF"/>
+                </g>
+                
+                <!-- Lavender -->
+                <g transform="translate(0, 70)">
+                    <rect x="0" y="0" width="60" height="60" fill="#D1C1E1"/>
+                    <rect x="70" y="0" width="60" height="60" fill="#E3D6F0"/>
+                    <rect x="140" y="0" width="60" height="60" fill="#F5EBFD"/>
+                    <rect x="210" y="0" width="60" height="60" fill="#F8F2FE"/>
+                    <rect x="280" y="0" width="60" height="60" fill="#FAF6FE"/>
+                </g>
+                
+                <!-- Mint -->
+                <g transform="translate(0, 140)">
+                    <rect x="0" y="0" width="60" height="60" fill="#CFE9DC"/>
+                    <rect x="70" y="0" width="60" height="60" fill="#DBF1E5"/>
+                    <rect x="140" y="0" width="60" height="60" fill="#E8F5EE"/>
+                    <rect x="210" y="0" width="60" height="60" fill="#F0F9F4"/>
+                    <rect x="280" y="0" width="60" height="60" fill="#F5FBF8"/>
+                </g>
+                
+                <!-- Spore -->
+                <g transform="translate(0, 210)">
+                    <rect x="0" y="0" width="60" height="60" fill="#C4C7C9"/>
+                    <rect x="70" y="0" width="60" height="60" fill="#D4D7D8"/>
+                    <rect x="140" y="0" width="60" height="60" fill="#E5E7E8"/>
+                    <rect x="210" y="0" width="60" height="60" fill="#ECEEF0"/>
+                    <rect x="280" y="0" width="60" height="60" fill="#F4F5F6"/>
+                </g>
+                
+                <!-- Moss -->
+                <g transform="translate(0, 280)">
+                    <rect x="0" y="0" width="60" height="60" fill="#B3FF66"/>
+                    <rect x="70" y="0" width="60" height="60" fill="#CCFF99"/>
+                    <rect x="140" y="0" width="60" height="60" fill="#DFFFB3"/>
+                    <rect x="210" y="0" width="60" height="60" fill="#E6FFCC"/>
+                    <rect x="280" y="0" width="60" height="60" fill="#F2FFE6"/>
+                </g>
+            </g>
+        </g>
     </g>
-  </g>
-  <!-- Light Mode Colors -->
-  <g
-     transform="translate(124, 1500)"
-     id="g40">
-    <text
-       font-family="'IBM Plex Mono', monospace"
-       font-size="48"
-       fill="#9B87AB"
-       y="-40"
-       id="text31">Light Mode</text>
-    <g
-       id="light-swatches">
-      <!-- Light Void -->
-      <g
-         transform="translate(0, 0)"
-         id="g33">
-        <rect
-           width="300"
-           height="180"
-           fill="#F2F2F3"
-           id="rect31" />
-        <text
-           x="16"
-           y="220"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="24"
-           fill="#9B87AB"
-           id="text32">Light Void</text>
-        <text
-           x="16"
-           y="250"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="20"
-           fill="#7A9B89"
-           id="text33">#F2F2F3</text>
-      </g>
-      <!-- Light Lavender -->
-      <g
-         transform="translate(350, 0)"
-         id="g35">
-        <rect
-           width="300"
-           height="180"
-           fill="#F5EBFD"
-           id="rect33" />
-        <text
-           x="16"
-           y="220"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="24"
-           fill="#9B87AB"
-           id="text34">Light Lavender</text>
-        <text
-           x="16"
-           y="250"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="20"
-           fill="#7A9B89"
-           id="text35">#F5EBFD</text>
-      </g>
-      <!-- Light Mint -->
-      <g
-         transform="translate(700, 0)"
-         id="g37">
-        <rect
-           width="300"
-           height="180"
-           fill="#E8F5EE"
-           id="rect35" />
-        <text
-           x="16"
-           y="220"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="24"
-           fill="#9B87AB"
-           id="text36">Light Mint</text>
-        <text
-           x="16"
-           y="250"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="20"
-           fill="#7A9B89"
-           id="text37">#E8F5EE</text>
-      </g>
-      <!-- Light Spore -->
-      <g
-         transform="translate(1050, 0)"
-         id="g39">
-        <rect
-           width="300"
-           height="180"
-           fill="#E5E7E8"
-           id="rect37" />
-        <text
-           x="16"
-           y="220"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="24"
-           fill="#9B87AB"
-           id="text38">Light Spore</text>
-        <text
-           x="16"
-           y="250"
-           font-family="'IBM Plex Mono', monospace"
-           font-size="20"
-           fill="#7A9B89"
-           id="text39">#E5E7E8</text>
-      </g>
-    </g>
-  </g>
-  <!-- Attribution -->
-  <g
-     transform="translate(124, 2400)"
-     id="g41">
-    <text
-       font-family="'IBM Plex Mono', monospace"
-       font-size="32px"
-       fill="#4d5052"
-       id="text40">Created by Azul / cathodeDreams 𝕏</text>
-    <text
-       y="50"
-       font-family="'IBM Plex Mono', monospace"
-       font-size="32"
-       fill="#4D5052"
-       id="text41">
-            For Latent Echo, 2024
+
+    <!-- Attribution Container -->
+    <g transform="translate(500, 750)">
+        <text font-family="Arial" font-size="12" fill="#F2F2F3" text-anchor="middle">
+            Created by Azul (𝕏 @cathode_dreams) for latentecho.net, 2024
         </text>
-  </g>
-</svg>
+    </g>
+</svg> 
